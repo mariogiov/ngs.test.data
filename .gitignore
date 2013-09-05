@@ -1,0 +1,6 @@
+*.pyc
+*.idx
+.DS_Store
+.#*
+.ropeproject
+.env
