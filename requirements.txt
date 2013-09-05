@@ -1,0 +1,4 @@
+Logbook==0.5.0
+PyYAML==3.10
+biopython==1.62
+wsgiref==0.1.2

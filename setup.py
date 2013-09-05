@@ -22,7 +22,11 @@ setup(name = "ngstestdata",
       scripts = [],
       install_requires = [
           "PyYAML >= 3.09",
-          "fabric >= 1.1.1"]
+          "fabric >= 1.1.1",
+          "Logbook>=0.5.0",
+          "PyYAML>=3.10",
+          "biopython==1.62",
+          ]
       )
 
 
