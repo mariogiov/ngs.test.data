@@ -16,6 +16,9 @@ with open (os.path.join(os.path.dirname(__file__), os.pardir, "config", "config.
     config = yaml.load(fh)
 genomes = config["genomes"]
 
+# Send email with NCBI request or they won't be givin' up nay-thang
+Entrez.email = config["entrez_email"]
+
 def _index_seq_files(index_files, fn, build):
     outfile = index_fn['bwa'](fn, label="bwa")
     index_files['sam']['data'].write("index\t{}\t{}\n".format(build, fn))

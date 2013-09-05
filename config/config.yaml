@@ -1,4 +1,5 @@
 numreads: 50000
+entrez_email: 'anonymous@scilifelab.se'
 1000g:
   individual: NA21137
   bam_ext: chrom11.ILLUMINA.bwa.GIH.exome.20120522.bam

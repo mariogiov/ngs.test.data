@@ -3,9 +3,11 @@ from Bio import Entrez
 from ngstestdata import config
 import logbook
 
+
 LOG = logbook.Logger(__name__)
 
 genomes = config["genomes"]
+Entrez.email = config["entrez_email"]
 
 ##############################
 ## Variation data
