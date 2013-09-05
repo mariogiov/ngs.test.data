@@ -23,6 +23,7 @@ setup(name = "ngstestdata",
       install_requires = [
           "PyYAML >= 3.09",
           "fabric >= 1.1.1",
+          "Mako>=0.9.0",
           "Logbook>=0.5.0",
           "PyYAML>=3.10",
           "biopython==1.62",
